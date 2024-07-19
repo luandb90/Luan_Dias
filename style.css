@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    border: 0;
+    }
+
+.raiz{
+    background-image: linear-gradient(to bottom, #092635 40%, #1B4242 60%, #5C8374);
+    display: grid;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-botão{
+    color: #ffffff;
+    cursor: pointer;
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px 7px;
+    
+}
+
+.nav a{
+    display: inline;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 7px 7px;
+    transition: 0.3s;
+    box-shadow: 0 0 5px white,
+    0 0 2px white, 0 0 10px white, 0 0 5px white, 0 0 15px white
+}
+
+.informações{
+    color: white;
+    width: 500px;
+    height: 500px;
+    margin-top: 120px;
+    margin-left: 240px;
+    font-size: 25px;
+}
+
+strong{
+    color: #81f59cf9;
+}
+
+.adicional{
+    color: white;
+    width: 400px;
+    margin-top: -340px;
+    margin-left: 240px;
+    font-size: 20px;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+    margin-left: 250px;
+    margin-top: -250px;
+
+}
+
+.social img{
+    height: 40px;
+    width: 40px;
+    border-radius: 60%;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+.social a{
+    border-radius: 50%;  
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    height: 51px;
+    width: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+.social a:hover{
+    transition:  0.5s;
+    box-shadow: 0 0 10px #5C8374, 0 0 30px #5C8374;
+
+}
+
+img{
+    width: 300px;
+    margin-left: 900px;
+    margin-top: -520px;
+    border-radius:15px;
+}
+
+                                                                                          /*SOBRE MIM*/
+
+section{
+    background-image: linear-gradient(to bottom,  #5C8374 40%, #1B4242 60%, #092635);
+    display: grid;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+section div h2{
+    color: #81f59cf9;
+    font-size: 70px;
+    margin-top: 5px;
+    margin-left: 500px;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
+
+section div p{
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 1% 2%;
+    border: 5px solid #81f59cf9;
+    border-left: 20px;
+    border-top: 10px;
+    box-shadow: 15px 15px #81f59cf9;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: transparent;
+    margin-top: 60px;
+}
+
+
