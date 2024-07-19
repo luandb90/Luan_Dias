@@ -294,7 +294,7 @@ flex-direction: column;
 
   .informações {
     width: 300px;
-    margin-left: 90px;
+    margin-left: 40px;
     margin-top: 70px;
     display: block;
     align-items: center;
@@ -302,14 +302,14 @@ flex-direction: column;
 
   .adicional {
     width: 300px;
-    margin-left: 90px;
+    margin-left: 40px;
     margin-top: -270px;
     display: block;
   }
 
   .social {
     width: 300px;
-    margin-left: 110px;
+    margin-left: 70px;
     margin-top: -10px;
   }
 
@@ -322,12 +322,13 @@ flex-direction: column;
     width: 200px;
     align-items: center;
     margin-top: 30px;
+    margin-left: 100px;
     display: block;
   }
 
   section div h2 {
-    width: 500px;
-    margin-left: -6px;
+    width: 400px;
+    margin-left: -10px;
     margin-top: 150px;
     display: block;
     text-align: center;
@@ -349,16 +350,15 @@ flex-direction: column;
   .projetos{
     align-items: center;
     text-align: center;
+    margin-top: 350px;
   }
 
   .card1{
-
     margin-left: 0px;
     margin-top: 70px;
   }
 
   .card2{
-
     margin-top: 550px;
     margin-left: -385px;
 
@@ -368,5 +368,17 @@ flex-direction: column;
     margin-top: 1050px;
     margin-left: -385px;
 
+  }
+
+  .card1 img{
+    margin-left: 50px;
+  }
+
+  .card2 img{
+    margin-left: 50px;
+  }
+
+  .card3 img{
+    margin-left: 50px;
   }
 }
